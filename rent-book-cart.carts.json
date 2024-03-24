@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "65f84c0348b2aefaeea57e7e"
+  },
+  "userId": "sohamnall@gmail.com",
+  "items": [
+    "1",
+    "2",
+    "3"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f84caf48b2aefaeea57e80"
+  },
+  "userId": "sohamnall@gmail.com",
+  "items": [
+    9,
+    10,
+    11
+  ],
+  "__v": 0
+}]

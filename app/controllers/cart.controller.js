@@ -46,16 +46,16 @@ exports.update = async(req, res)=>{
 
 exports.fetch = (req, res)=>{
     const id = req.query.userId;
-    console.log('id', id);
+    //console.log('id', id);
     Cart.findOne({ "userId":id })
       .then(data => {
         if (!data)
-          res.status(404).send({ message: "Not found Tutorial with id " + id });
+          res.status(404).send({ message: "Not found Cart with id " + id });
         else res.send(data);
       })
       .catch(err => {
         res
           .status(500)
-          .send({ message: "Error retrieving Tutorial with id=" + id });
+          .send({ message: "Error retrieving Cart with id=" + id });
       });
 }
